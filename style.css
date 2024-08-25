@@ -55,7 +55,7 @@ header {
 ul {
   margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style-type: center-inline;
   background: rgba(0, 0, 0, 0.75);
   min-width: 262%;
   min-height: 100%;
