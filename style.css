@@ -62,7 +62,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  display: center;
   margin-right: 20px;
   padding: 20px;
 }
