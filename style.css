@@ -93,3 +93,7 @@ li {
        align-items: stretch;
        justify-content: left;
       }
+
+      .gvrp-bg {
+      background-image: URL(GVRP_01.png);
+      }
