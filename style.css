@@ -48,6 +48,24 @@ a {
   text-align: center;
 }
 
+header {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: rgba(0, 0, 0, 0.75);
+  min-width: 264%;
+  min-height: 100%;
+}
+
+li {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 20px;
+}
       .webpage { 
         background: rgba(0, 0, 0, 0.5);
         justify-content: center;
@@ -69,21 +87,16 @@ a {
         min-width: 100%;
         min-height: 100%;
 
-header {
-    display: flex;
-  }
-  
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    background: rgba(0, 0, 0, 0.75);
-    min-width: 264%;
-    min-height: 100%;
-  }
-  
-  li {
-    display: inline-block;
-    margin-right: 50px;
-    padding: 20px;
-  }
+      }
+
+      .audio { 
+       align-items: stretch;
+       justify-content: left;
+      }
+
+      gvrp-bg {
+        background-image: url('Assets\OCSO-Tahoe.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        }
