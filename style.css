@@ -71,34 +71,19 @@ a {
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #222;
-    padding: 15px 50px;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    position: relative;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    transition: 0.3s ease-in-out;
-    padding: 10px;
-}
-}
-
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: rgba(0, 0, 0, 0.75);
+    min-width: 264%;
+    min-height: 100%;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 20px;
+  }
