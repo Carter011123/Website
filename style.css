@@ -100,25 +100,5 @@ nav ul li a {
     transition: 0.3s ease-in-out;
     padding: 10px;
 }
-
-/* Hover Effect */
-nav ul li a:hover {
-    color: #f4a261;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav ul li {
-        margin-bottom: 10px;
-    }
 }
 
