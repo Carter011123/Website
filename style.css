@@ -94,9 +94,9 @@ li {
        justify-content: left;
       }
 
-      .gvrp-bg {
+      gvrp-bg {
         background-image: url('Assets\OCSO-Tahoe.png');
         background-size: contain;
         background-repeat: no-repeat;
         width: 100px;
-        }
+        } /* test */
